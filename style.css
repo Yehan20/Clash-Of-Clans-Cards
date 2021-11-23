@@ -225,7 +225,7 @@ hr{
 }
 
 .title{
-	top:-.8em;
+	top:-.7em;
 	font-weight:bold;
 	text-align:center;
 	position:relative;
@@ -236,6 +236,12 @@ hr{
     font-family:var(--ff-title);
 
 }
+@media (max-width:600px){
+	.title{
+		top:-.4em;
+	}
+}
+
 
 .title span{
   font-size:1.2rem;
@@ -316,7 +322,7 @@ hr{
 .bar__text{
 	color:var(--clr-bartxt);
 	position:relative;
-	top:-6px;
+	top:-10px;
 	left:8px;
     font-family:var(--ff-bar);
    letter-spacing:2px;
@@ -324,6 +330,7 @@ hr{
 	font-size:16.8px;
 	text-shadow: -1px -1px 0 #111, 1px -1px 0 #111, -1px 1px 0 #222, 1px 1px 0 #222;
 }
+
 
 .ht{
   color:red;
