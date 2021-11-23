@@ -316,7 +316,7 @@ hr{
 .bar__text{
 	color:var(--clr-bartxt);
 	position:relative;
-	top:-10px;
+	top:-6px;
 	left:8px;
     font-family:var(--ff-bar);
    letter-spacing:2px;
